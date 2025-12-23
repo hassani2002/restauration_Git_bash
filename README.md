@@ -13,7 +13,7 @@
    </a>
 </p>
 
-**Utilisation:** Php 7.4
+**Utilisation:** Php 8.1
 
 **Fonctionnalités:**
 * **Côté client (dossier customerSide):** Contient le site web et permet aux clients de:
@@ -78,5 +78,6 @@
 
 
 **Si vous souhaitez définir un mot de passe pour la base de données, modifiez les fichiers config.php**.
+
 
 
