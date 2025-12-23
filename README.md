@@ -1,8 +1,8 @@
-## Restaurant POS and Website
+## Restaurant Project php
 
 ![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/homehomepage.png?raw=true)
 
-**Built with these:** 
+**Construit avec:** 
 <p align="left">
    <a href="#">
       <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
@@ -13,50 +13,50 @@
    </a>
 </p>
 
-**Using:** Php 7.4
+**Utilisation:** Php 7.4
 
-**Features:**
-* **Customer Side (customerSide Folder):** Stores the website and allows customers to:
-    * Make reservations
-    * Register for accounts
-    * View profile points
-* **Staff Side (adminSide Folder):** Stores the panels and allows staff to:
-    * Take orders
-    * Send orders to the kitchen
-    * Process payments
-    * Print receipts
-    * Manage CRUD operations
-    * View user preferences
-    * Download reports
-    * View charts and graph
+**Fonctionnalités:**
+* **Côté client (dossier customerSide):** Contient le site web et permet aux clients de:
+    * Faire des réservations
+    * Créer des comptes
+    * Consulter les points de leur profil
+* **Côté personnel (dossier adminSide):** Contient les panneaux d’administration et permet au personnel de :
+    * Prendre des commandes
+    * Envoyer les commandes à la cuisine
+    * Traiter les paiements
+    * Imprimer des reçus
+    * Gérer les opérations CRUD
+    * Consulter les préférences des utilisateurs
+    * Télécharger des rapports
+    * Visualiser des graphiques et des diagrammes
 
 
 
-**Steps to run the project locally for Netbeans Manually:**
+**Étapes pour exécuter le projet localement sur NetBeans manuellement:**
 
-1. Open XAMPP, start Apache and MySQL.
-2. Create a new project in Netbeans named `RestaurantProject`.
-3. Under categories, select PHP, the PHP Application under Projects.
-4. In Run Configuration, the "Run As" should be Local Web Site. (If your using Xampp).
-5. Then Finish.
-6. Delete the `setup_completed.flag` file in the RestaurantProject-main. (Extracted version)
-7. Copy all the folders and files (adminSide, customerSide, index.php, and restaurantDB.txt) from the RestaurantProject-main into the `Source Files` directory.
-8. Make sure there is no database named `restaurantdb`.
-9. Run the project.
+1. Ouvrez XAMPP, démarrez Apache et MySQL.
+2. Créez un nouveau projet dans NetBeans nommé RestaurantProject.
+3. Dans les catégories, sélectionnez PHP, puis Application PHP sous Projets.
+4. Dans la configuration d’exécution, le champ « Run As » doit être Site Web local. (Si vous utilisez XAMPP).
+5. Cliquez ensuite sur Terminer.
+6. Supprimez le fichier setup_completed.flag dans le dossier RestaurantProject-main. (Version extraite)
+7. Copiez tous les dossiers et fichiers (adminSide, customerSide, index.php et restaurantDB.txt) depuis RestaurantProject-main dans le répertoire Source Files.
+8. Assurez-vous qu’aucune base de données nommée restaurantdb n’existe.
+9. Exécutez le projet.
 
 ## Example accounts
 
-| Role | Email | Password |
+| Role | Email | mot de passe |
 |---|---|---|
-| Customer | dadsvawvid@gmail.com | david4pass |
-| Customer | zoe@gmail.com | passworddef |
-| Customer | jackie@gmail.com | passwordstu |
+| Client | dadsvawvid@gmail.com | david4pass |
+| Client | zoe@gmail.com | passworddef |
+| Client | jackie@gmail.com | passwordstu |
 | Staff | 1 | password123 |
 | Staff | 10 | davidpa2ss |
 | Staff | 7 | robertpass |
 | Admin | 99999 | 12345 |
 
-## Screenshots
+## Captures
 ![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/homehomepage.png?raw=true)
 ![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/register.png?raw=true)
 ![alt text](https://github.com/Brynlai/RestaurantProject/blob/main/RestaurantProjectImages/Login.png?raw=true)
@@ -77,14 +77,6 @@
 
 
 
-## Contributors
+**Si vous souhaitez définir un mot de passe pour la base de données, modifiez les fichiers config.php**.
 
-| Name | Github |
-|---|---|
-| Bryan | https://github.com/BryanTheLai |
-| Yong | https://github.com/ahhyang |
-| Kevin | https://github.com/kevin07212004 |
-| Edzer | https://github.com/edsaur |
-
-## If you want to put a password for the database, change the config.php files.
 
